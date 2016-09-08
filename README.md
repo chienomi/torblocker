@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Torblocker
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/torblocker`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -39,3 +40,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+=======
+# torblocker
+Torblocker is a simple API to block unwanted access by Tor browser and untrusted IPs.
+>>>>>>> ad0397ce90c824da527cfbb8a6e363c955cee2ab
