@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Copy and Paste our simple code from (https://torblocker.com).
+Get your token from (https://torblocker.com).
 
 If you want to check if an IP is not from Tor browser or our blacklist:
 ```ruby
