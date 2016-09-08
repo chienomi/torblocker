@@ -1,8 +1,6 @@
 # Torblocker
 
-Welcome to torblocker gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/torblocker`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Torblocker is a simple API to block unwanted access by Tor browser and untrusted IPs.
 
 ## Installation
 
@@ -22,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Copy and Paste our simple code from (https://torblocker.com).
+
+If you want to check if an IP is not from Tor browser or our blacklist:
+```ruby
+Torblocker.trusted?(ip_to_be_checked_in_string, your_token)
+```
+This returns true if the IP is not from Tor browser or our blacklist.
+
+```ruby
+Torblocker.untrusted?(ip_to_be_checked_in_string, your_token)
+```
+This returns true if the IP is from Tor browser or our blacklist.
 
 ## Development
 
@@ -32,7 +41,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/torblocker.
+Bug reports and pull requests are welcome on GitHub at https://github.com/chienomi/torblocker.
 
 
 ## License
