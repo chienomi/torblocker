@@ -25,13 +25,13 @@ Copy and Paste our simple code from (https://torblocker.com).
 If you want to check if an IP is not from Tor browser or our blacklist:
 ```ruby
 Torblocker.trusted?(ip_to_be_checked_in_string, your_token)
+# This returns true if the IP is not from Tor browser or our blacklist.
 ```
-This returns true if the IP is not from Tor browser or our blacklist.
 
 ```ruby
 Torblocker.untrusted?(ip_to_be_checked_in_string, your_token)
+# This returns true if the IP is from Tor browser or our blacklist.
 ```
-This returns true if the IP is from Tor browser or our blacklist.
 
 ## Development
 
